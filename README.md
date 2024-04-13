@@ -17,6 +17,7 @@ composer require balpom/downloader
 ### Usage sample
 This downloader requires objects that implement the ResponseFactoryInterface, StreamFactoryInterface and UriFactoryInterface interfaces which defined in the [PSR-17 specification](https://www.php-fig.org/psr/psr-17/).
 An excellent library that implements all these interfaces at once (all-in-one) is [Nyholm/psr7](https://github.com/Nyholm/psr7) - will use it.
+
 This downloader also requires an HTTP client that implements the ClientInterface which defined in the [PSR-18 specification](https://www.php-fig.org/psr/psr-18/). For example, will use [phpwebclient/webclient](https://github.com/phpwebclient/webclient).
 
 #### Installing third-party packages
